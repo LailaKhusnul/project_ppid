@@ -1,0 +1,116 @@
+/* Dropdown */
+.dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -2px;
+    border-radius: 0;
+  }
+
+  .dropdown-submenu > a:after {
+    display: block;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    float: right;
+    margin-top: 0;
+    margin-right: -5px;
+    border: 0;
+  }
+
+  .dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+  }
+
+  .dropdown-menu {
+    text-align: left;
+    background: #fff;
+    z-index: 100;
+    min-width: 200px;
+    border-radius: 0;
+    border: 0;
+    border-top: 2px solid #ffb600;
+    padding: 0 20px;
+    margin: 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  }
+  @media (max-width: 991px) {
+    .dropdown-menu {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  .dropdown-menu-large {
+    min-width: 400px;
+  }
+
+  .dropdown-menu-large > li > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .dropdown-menu-large > li > ul > li > a {
+    padding-left: 0;
+  }
+
+  .dropdown-menu-large > li > ul > li.active > a {
+    color: #ffb600 !important;
+  }
+
+  .navbar-nav > li > .dropdown-menu a {
+    background: none;
+  }
+
+  .dropdown-menu li a {
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px 0;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #333333;
+  }
+  @media (max-width: 991px) {
+    .dropdown-menu li a {
+      padding: 12px 0;
+    }
+  }
+
+  .dropdown-menu li:last-child > a {
+    border-bottom: 0;
+  }
+
+  .dropdown-menu li a:hover,
+  .dropdown-menu li a:focus {
+    color: #ffb600;
+  }
+
+  @media (min-width: 991px) {
+    ul.nav li.dropdown:hover ul.dropdown-menu {
+      display: block;
+    }
+  }
+  @media (min-width: 991px) {
+    ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu .dropdown-menu {
+      left: 100%;
+      top: 0;
+      display: none;
+    }
+    ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover .dropdown-menu {
+      display: block;
+    }
+  }
+  .dropdown-menu > .active > a,
+  .dropdown-menu > .active > a:hover,
+  .dropdown-menu > .active > a:focus,
+  .dropdown-menu > .active > .dropdown-menu > .active > a {
+    background: none;
+    color: #ffb600;
+  }
