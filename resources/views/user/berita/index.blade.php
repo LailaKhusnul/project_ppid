@@ -169,9 +169,9 @@
 
   <div class="col-md-6 col-sm-12 ts-facts mt-5 mt-sm-0">
     <div class="ts-facts-img">
-        <a href="#" target="_blank"><img loading="lazy" src="{{ asset('img/verified.png') }}" alt="facts-img" style="margin-left:-120px;height:70px;width:auto;">
+        <a href="cekstatuspengajuan-keberatan/create" target="_blank"><img loading="lazy" src="{{ asset('img/verified.png') }}" alt="facts-img" style="margin-left:-120px;height:70px;width:auto;">
       </div>
-        <h3 class="ts-facts-num" style="color: #ffffff; font-size: 12px; width: 500px; text-align:justify; margin-left: -30px;"><a class="counterUp" href="#" target="_blank">Cek Status Pengajuan Keberatan Informasi Publik</a></h3>
+        <h3 class="ts-facts-num" style="color: #ffffff; font-size: 12px; width: 500px; text-align:justify; margin-left: -30px;"><a class="counterUp" href="cekstatuspengajuan-keberatan/create" target="_blank">Cek Status Pengajuan Keberatan Informasi Publik</a></h3>
   </div><!-- Col end -->
 </div> <!-- Facts end -->
 

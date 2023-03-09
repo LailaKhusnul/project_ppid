@@ -40,6 +40,7 @@ Route::get('/berita/{year}/{month}/{day}/{slug}', [App\Http\Controllers\User\Bas
 Route::resource('/permohonan-informasi', App\Http\Controllers\User\PermohonanController::class );
 Route::resource('/pengajuan-keberatan', App\Http\Controllers\User\PengajuanController::class );
 Route::get('/kanal-pengaduan',[\App\Http\Controllers\User\PermohonanController::class,'kanalpengaduan'])->name('kanalpengaduan.menu');
+Route::resource('/cekstatuspengajuan-keberatan', App\Http\Controllers\User\CekStatusPengajuanController::class );
 
 
 /** Dashboard Admin */
